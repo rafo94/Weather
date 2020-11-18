@@ -1,0 +1,57 @@
+package com.example.weather.util
+
+class Constants {
+
+    companion object {
+        const val FORECAST_BASE_URL = "http://api.weatherapi.com/"
+
+        const val FORCE_CAST_SUNNY = 1000
+        const val FORCE_CAST_PARTLY_CLOUDY = 1003
+        const val FORCE_CAST_CLOUDY = 1006
+        const val FORCE_CAST_OVERCAST = 1009
+        const val FORCE_CAST_MIST = 1030
+        const val FORCE_CAST_PATCHY_RAIN_POSSIBLE = 1063
+        const val FORCE_CAST_PATCHY_SNOW_POSSIBLE = 1066
+        const val FORCE_CAST_PATCHY_SLEET_POSSIBLE = 1069
+        const val FORCE_CAST_PATCHY_FREEZING_DRIZZLE_POSSIBLE = 1072
+        const val FORCE_CAST_THUNDERY_OUTBREAKS_POSSIBLE = 1087
+        const val FORCE_CAST_BLOWING_SNOW = 1114
+        const val FORCE_CAST_BLIZZARD = 1117
+        const val FORCE_CAST_FOG = 1135
+        const val FORCE_CAST_FREEZING_FOG = 1147
+        const val FORCE_CAST_PATCHY_LIGHT_DRIZZLE = 1150
+        const val FORCE_CAST_LIGHT_DRIZZLE = 1153
+        const val FORCE_CAST_FREEZING_DRIZZLE = 1168
+        const val FORCE_CAST_HEAVY_FREEZING_DRIZZLE = 1171
+        const val FORCE_CAST_PATCHY_LIGHT_RAIN = 1180
+        const val FORCE_CAST_LIGHT_RAIN = 1183
+        const val FORCE_CAST_MODERATE_RAIN_AT_TIMES = 1186
+        const val FORCE_CAST_MODERATE_RAIN = 1189
+        const val FORCE_CAST_HEAVY_RAIN_AT_TIMES = 1192
+        const val FORCE_CAST_HEAVY_RAIN = 1195
+        const val FORCE_CAST_LIGHT_FREEZING_RAIN = 1198
+        const val FORCE_CAST_MODERATE_OR_HEAVY_FREEZING_RAIN = 1201
+        const val FORCE_CAST_LIGHT_SLEET = 1204
+        const val FORCE_CAST_MODERATE_OR_HEAVY_SLEET = 1207
+        const val FORCE_CAST_PATCHY_LIGHT_SNOW = 1210
+        const val FORCE_CAST_LIGHT_SNOW = 1213
+        const val FORCE_CAST_PATCHY_MODERATE_SNOW = 1216
+        const val FORCE_CAST_MODERATE_SNOW = 1219
+        const val FORCE_CAST_PATCHY_HEAVY_SNOW = 1222
+        const val FORCE_CAST_HEAVY_SNOW = 1225
+        const val FORCE_CAST_ICE_PELLETS = 1237
+        const val FORCE_CAST_LIGHT_RAIN_SHOWER = 1240
+        const val FORCE_CAST_MODERATE_OR_HEAVY_SHOWER = 1243
+        const val FORCE_CAST_TORRENTIAL_RAIN_SHOWER = 1246
+        const val FORCE_CAST_SHOWER_SLEET_SHOWERS = 1249
+        const val FORCE_CAST_MODERATE_OR_HEAVY_SLEET_SHOWERS = 1252
+        const val FORCE_CAST_LIGHT_SNOW_SHOWERS = 1255
+        const val FORCE_CAST_MODERATE_OR_HEAVY_SNOW_SHOWERS = 1258
+        const val FORCE_CAST_LIGHT_SHOWERS_OF_ICE_PELLETS = 1261
+        const val FORCE_CAST_MODERATE_OR_HEAVY_SHOWERS_OF_ICE_PELLETS = 1264
+        const val FORCE_CAST_PATCHY_LIGHT_RAIN_WITH_THUNDER = 1273
+        const val FORCE_CAST_MODERATE_OR_HEAVY_WITH_THUNDER = 1276
+        const val FORCE_CAST_PATCHY_LIGHT_SNOW_WITH_THUNDER = 1279
+        const val FORCE_CAST_MODERATE_OR_HEAVY_SNOW_WITH_THUNDER = 1282
+    }
+}

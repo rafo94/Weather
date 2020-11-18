@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="gps_disable">Your GPS seems to be disabled, you should enable it.</string>
+    <string name="forecast_api_key">2d144a33eb374d07931121850200209</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enable_gps">Enable GPS</string><!--//https://www.weatherapi.com/-->
+</resources>
